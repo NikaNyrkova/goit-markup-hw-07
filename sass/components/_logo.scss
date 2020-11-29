@@ -12,13 +12,15 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .web {
-  color: var(--accent-color);
+  color: $accent-color;
 }
+
 .studio {
-  color: var(--title-color);
+  color: $title-color;
 }
 
 .logo-st-f {
-  color: var(--white);
+  color: $white;
 }

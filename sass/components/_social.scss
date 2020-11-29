@@ -17,16 +17,16 @@
   align-items: center;
   width: 44px;
   height: 44px;
-  background-color: var(--white);
+  background-color: $white;
   border-radius: 50%;
 
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+  transition-duration: $tr-dur;
+  transition-timing-function: $tr-t-f;
 
-.social-icons-link:hover,
-.social-icons-link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }
 
 .social-icons-svg {
@@ -34,11 +34,11 @@
   height: 20px;
   fill: #afb1b8;
 
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+  transition-duration: $tr-dur;
+  transition-timing-function: $tr-t-f;
 
-.social-icons-link:hover .social-icons-svg,
-.social-icons-link:focus .social-icons-svg {
-  fill: var(--white);
+  .social-icons-link:hover &,
+  .social-icons-link:focus & {
+    fill: $white;
+  }
 }

@@ -26,23 +26,23 @@
   box-sizing: border-box;
   border-radius: 4px;
 
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+  transition-duration: $tr-dur;
+  transition-timing-function: $tr-t-f;
 
-.clients-icons-link:hover,
-.clients-icons-link:focus {
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+  }
 }
 
 .clients-icons-svg {
   fill: #afb1b8;
 
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+  transition-duration: $tr-dur;
+  transition-timing-function: $tr-t-f;
 
-.clients-icons-link:hover .clients-icons-svg,
-.clients-icons-link:focus .clients-icons-svg {
-  fill: var(--accent-color);
+  .clients-icons-link:hover &,
+  .clients-icons-link:focus & {
+    fill: $accent-color;
+  }
 }
