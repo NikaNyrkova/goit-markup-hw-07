@@ -296,7 +296,7 @@ body {
   position: relative;
 }
 
-.list-section-title .item :not(:last-child) {
+.list-section-title .item:not(:last-child) {
   margin-right: 30px;
 }
 
